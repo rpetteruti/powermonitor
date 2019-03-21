@@ -1,7 +1,7 @@
-# powermonitor
-Monitor power usage through WiFi Smart Plug
+# powermonitor with mqtt push
+Monitor power usage through WiFi Smart Plug and send it to mqtt
 
-This script will will poll the Smart Plugs for state and energy usage (Watts)
+This script will will poll the Smart Plugs for state and energy usage (Watts) and send these infos to an mqtt server
 
 Instructions for Capatible Smart Plugs
 
@@ -25,3 +25,4 @@ Example Products
 * TanTan Smart Plug Mini Wi-Fi Enabled Outlet with Energy Monitoring - https://www.amazon.com/gp/product/B075Z17987/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1
 * SKYROKU SM-PW701U Wi-Fi Plug Smart Plug - see https://wikidevi.com/wiki/Xenon_SM-PW701U
 * Wuudi SM-S0301-US - WIFI Smart Power Socket Multi Plug with 4 AC Outlets and 4 USB Charging
+
