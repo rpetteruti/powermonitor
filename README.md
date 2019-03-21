@@ -25,4 +25,5 @@ Example Products
 * TanTan Smart Plug Mini Wi-Fi Enabled Outlet with Energy Monitoring - https://www.amazon.com/gp/product/B075Z17987/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1
 * SKYROKU SM-PW701U Wi-Fi Plug Smart Plug - see https://wikidevi.com/wiki/Xenon_SM-PW701U
 * Wuudi SM-S0301-US - WIFI Smart Power Socket Multi Plug with 4 AC Outlets and 4 USB Charging
+* Smart plug houzetek https://www.amazon.it/dp/B07HH2XQNX/ref=cm_sw_em_r_mt_dp_U_Zq1KCb040GFTE
 
