@@ -19,6 +19,7 @@ To monitor a smart plug, you will need to know its IP address and Device ID.
 
 sudo apt-get install python-crypto python-pip
 pip install pycrypto
+pip install paho-mqtt
 ```
 6. Schedule the execution of the script with crontab:
 ```
