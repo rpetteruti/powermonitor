@@ -1,15 +1,17 @@
 #!/usr/bin/python
 #
 # Power Probe - Wattage of smartplugs - JSON Output
-
+import paho.mqtt.client as mqtt
 import pytuya
 from time import sleep
 import datetime
 
+LOCALKEY="dummy" #is used only for control the switch in order to read the consumption you can leave as it is
+
 # Device Info - EDIT THIS
 DEVICEID="123"
 DEVICEIP="123"
-LOCALKEY="123"
+
 
 # MQTT server - EDIT THIS
 MQTTSERVER="www.example.com"
@@ -50,10 +52,11 @@ def deviceInfo( deviceid, ip ,localkey):
             break
         except KeyboardInterrupt:
             pass
-        except:
+        except Exception as e: 
             watchdog+=1
             if(watchdog>RETRY):
                 print("ERROR: No response from plug %s [%s]." % (deviceid,ip))
+                print(e)
                 return(0.0)
             sleep(2)
 
