@@ -20,6 +20,10 @@ To monitor a smart plug, you will need to know its IP address and Device ID.
 sudo apt-get install python-crypto python-pip
 pip install pycrypto
 ```
+6. Schedule the execution of the script with crontab:
+```
+* * * * * /usr/bin/python3 /pathToScript/plugpower.py
+```
 
 Example Products 
 * TanTan Smart Plug Mini Wi-Fi Enabled Outlet with Energy Monitoring - https://www.amazon.com/gp/product/B075Z17987/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1
